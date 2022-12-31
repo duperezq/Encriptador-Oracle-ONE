@@ -16,8 +16,8 @@
 
 **Por ejemplo:**
 
-* "gato" => *"gaitober"*.
-* gaitober" => *"gato"*.
+* "gato" => **"gaitober"**.
+* gaitober" => **"gato"**.
 
 ### Diseño responsivo:
 ![ResponsiveDesign](https://user-images.githubusercontent.com/73754710/210117629-e943be5b-39fd-47f5-8a69-83cefb08ca54.jpg)
