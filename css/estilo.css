@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #E5E5E5;
+  font-family: 'PT Mono', monospace;
+}
+
+header {
+  display: flex;
+  width: 70%;
+  height: auto;
+  margin-top: 3.3em;
+  margin-left: 4em;
+  margin-right: 0;
+   
+}
+
+header img {
+  width: 3.5%;
+}
+
+header p {
+  font-size: 2.5em;
+  margin: 0 auto;
+  color: darkblue;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.encriptar-mensaje {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 500px;
+}
+
+.text-area {
+  width: 80%;
+  height: 50%;
+  padding: 0.5em;
+  border: none;
+  font-size: 30px;
+  color: darkblue;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  margin: auto;
+  line-height: 125%;
+}
+
+.text-area::placeholder {
+  color: darkblue;
+  font-size: 25px;
+}
+
+.advertencia {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0;
+  justify-content: center;
+  
+}
+
+.advertencia p {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.advertencia p::before{
+  content: url("../img/advertencia.svg");
+  padding-right: 10px;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+
+.btn1, .btn2 {
+  display: inline;
+  width: 20em;
+  height: 3em;
+  background-color: darkblue;
+  border: none;
+  border-radius: 1em;
+  margin-right: 2.5em;
+  cursor: pointer;
+  color: white;
+  font-family: 'PT Mono', monospace;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.btn2{
+  background-color: #D8DFE8;
+  color: darkblue;
+  margin-right: 0;
+  border: 1px solid darkblue;;
+  }
+
+.tablero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: -5em;
+  margin-right: 4em;
+  padding-right: 1.5em;
+  border-radius: 2em;
+  height: 640px;
+}
+
+.contenedor-imagen img {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.text1{
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 15px; 
+}
+
+.text2 {
+  padding: 1em;
+  font-size: 1em;
+  margin-left: 15px;
+}
+
+#resultado {
+  display: flex;
+  color: darkblue;
+  width: 100%;
+  font-size: 1.3em;
+  padding: 0.5em;
+  border: none;
+  height: 90%;
+  text-align: start;
+  background-color: transparent;
+  margin: auto;
+  margin-bottom: 0.5em;
+  resize: none;
+  outline: none;
+  margin-top: 1em;
+  overflow: auto;
+  word-break: break-word;
+  line-height: 150%;
+}
+
+.boton_copiar {
+  display:inline;
+  width: 100%;
+  height: 4em;        
+  background-color: white;
+  border: 1px solid darkblue;;
+  border-radius: 1em;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  color: darkblue;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-bottom: 3em; 
+  font-family: 'PT Mono', monospace;
+  
+}
+
+footer {
+  background: darkblue;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  margin: 0 auto;
+  height: 10px;
+  font-size: 1em;
+  padding: 0.8em;
+  text-align: center;
+  box-shadow: 0px 45px 56px 15px rgb(0 0 0);
+  border-radius: 4em 4em 0px 0px; 
+}
+
+/*Responsive design*/
+@media only screen and (max-width: 770px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header img {
+    width: 10%;
+  }
+
+  .encriptar-mensaje {
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .encriptar-mensaje p {
+    padding-top: 1.5em;
+  }
+
+  .botones {
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .btn1, .btn2 {
+    width: 25em;
+    font-size: 15px;
+  }
+
+  .text-area {
+    font-size: 1.5em;    
+    margin: 0;
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .text-area::placeholder {
+    font-size: 20px;
+  }
+
+  .advertencia p {
+    font-size: 15px;
+  }
+
+  .tablero {
+    margin: 0 auto;
+    font-size: 100%;
+    width: 90%;
+    height: auto;
+    margin-bottom: 70px;
+  }
+
+  .tablero img {
+    display: none;
+    margin: none;
+  }
+
+  #resultado {
+    height: auto;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .boton_copiar {
+    width: 100%;
+    height: 3em;        
+    font-size: 15px;
+    margin-bottom: 1.5em;
+  }
+  
+  footer {
+    font-size: 0.8em; 
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  header {
+    width: auto;
+    margin-left: 2em;
+    margin-top: 4em;
+  }
+
+  header img {
+    width: 7%;
+  }
+
+  .encriptar-mensaje {
+    margin: auto;
+  }
+
+
+  .text-area {
+    font-size: 1.2em;    
+    margin: 0;
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .text-area::placeholder {
+    font-size: 1em;
+  }
+
+  .encriptar-mensaje p {
+    margin-top: 2em;
+    padding-top: 1em;
+    font-size: 0.7em;
+  }
+
+  .botones {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .btn1, .btn2 {
+    width: 100%;
+    align-items: center;
+  }
+
+
+  .tablero {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 90%;
+    height: 20% auto;
+    font-size: 70%;
+    
+  }
+
+  .tablero img {
+    display: none;
+    margin: none;
+  }
+
+  #resultado {
+    height: auto;
+    margin-left: 15px;
+  }
+
+  footer {
+    font-size: 0.8em; 
+  }
+
+}

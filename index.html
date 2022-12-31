@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador | Desencriptador</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/candado.png"></link>
+</head>
+<body>
+  <header>
+      <img src="img/Vector.png" alt="Logo">
+      <p>Encriptador</p>
+  </header>
+  <main>
+    <section class="encriptar-mensaje">
+      <textarea id="introducir-texto" type="text" class="text-area" cols="50" rows="10" placeholder="Ingrese su texto aquí:"></textarea>
+        <div class="advertencia">
+          <p>Solo letras minúsculas y sin tildes</p>
+        </div>
+      <div class="botones">
+        <button id="btn1" class="btn1">Encriptar</button>
+        <button id="btn2" class="btn2">Desencriptar</button>
+      </div>
+    </section>
+    <section class="tablero">
+      <div id="figura" class="contenedor-imagen">
+        <img src="img/Muñeco.svg" alt="Muñeco">
+        <p  class="text1"><strong>No se ha encontrado ningún mensaje</strong></p>
+        <p class="text2">Ingresa el texto que deseas encriptar o desencriptar</p>
+      </div>
+      <p id="resultado"></p>
+      <button id="boton_copiar" class="boton_copiar">Copiar</button>
+    </section>
+  </main>
+  <footer>
+    &copy Copyright Douglas Pérez - 2022
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/alerta.js"></script>
+  <script src="js/encriptar.js"></script>
+  <script src="js/desencriptar.js"></script>
+  <script src="js/copiar.js"></script>
+  
+</body>
+</html>
