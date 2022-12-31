@@ -14,12 +14,10 @@
 * No deben ser utilizados letras con tildes.
 * Puede convertir una palabra para la versión encriptada, así como también devolver la palabra encriptada a su versión original.
 
-Por ejemplo:
+**Por ejemplo:**
 
-~~~
-"gato" => "gaitober"
-gaitober" => "gato"
-~~~
+* "gato" => *"gaitober"*.
+* gaitober" => *"gato"*.
 
 ### Diseño responsivo:
 ![ResponsiveDesign](https://user-images.githubusercontent.com/73754710/210117629-e943be5b-39fd-47f5-8a69-83cefb08ca54.jpg)
