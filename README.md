@@ -20,4 +20,4 @@
 * gaitober" => **"gato"**.
 
 ### Diseño responsivo:
-![ResponsiveDesign](https://user-images.githubusercontent.com/73754710/210117629-e943be5b-39fd-47f5-8a69-83cefb08ca54.jpg)
+![ResponsiveDesign](https://user-images.githubusercontent.com/120145667/210158252-95a4eb41-3560-4722-aa62-985f3d36d323.jpg)
