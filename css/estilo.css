@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: #E5E5E5;
-  font-family: 'PT Mono', monospace;
+  font-family: 'Yatra One', monospace;
 }
 
 header {
@@ -13,7 +13,6 @@ header {
   margin-top: 3.3em;
   margin-left: 4em;
   margin-right: 0;
-   
 }
 
 header img {
@@ -98,7 +97,7 @@ main {
   margin-right: 2.5em;
   cursor: pointer;
   color: white;
-  font-family: 'PT Mono', monospace;
+  font-family: 'Yatra One', monospace;
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1em;
@@ -182,7 +181,7 @@ main {
   margin: 0 auto;
   margin-left: 10px;
   margin-bottom: 3em; 
-  font-family: 'PT Mono', monospace;
+  font-family: 'Yatra One', monospace;
   
 }
 
@@ -201,6 +200,11 @@ footer {
   text-align: center;
   box-shadow: 0px 45px 56px 15px rgb(0 0 0);
   border-radius: 4em 4em 0px 0px; 
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
 }
 
 /*Responsive design*/
